@@ -109,15 +109,17 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -372,6 +374,7 @@ section {
   header h1 {
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header nav ul {
@@ -382,6 +385,7 @@ section {
 
   header nav ul li a {
     font-size: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   footer h2, footer div {

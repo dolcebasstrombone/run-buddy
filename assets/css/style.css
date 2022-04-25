@@ -154,7 +154,7 @@ section {
   font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -162,7 +162,6 @@ section {
 .form-input:focus {
   background-color: rgba(255, 255, 255, 1);
   outline: none;
-}
 }
 
 .hero-form label {
@@ -176,7 +175,7 @@ section {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 10px;
-} 
+}
 
 .hero-form button:hover {
   background-color: #39a6b2;
@@ -226,11 +225,14 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step:not(:last-child) {
+  border-bottom: 1px solid #39a6b2;
 }
 
 .step h3 {
